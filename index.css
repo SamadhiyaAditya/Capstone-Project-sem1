@@ -189,7 +189,7 @@ body {
     height: 100%;
     border-radius: 10px;
     padding: 0;
-    transition: transform 0.3s ease;
+    transition: transform 0.6s ease;
 }
 .featured-project img:hover{
     transform: scale(0.8);
@@ -200,6 +200,7 @@ body {
 }
 .services h2{
     font-size: clamp(20px,2.5vw,2000px);
+    transition: transform 0.3s ease;
 }
 .services h2:hover{
     color: #ff3366;
